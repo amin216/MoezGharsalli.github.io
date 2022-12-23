@@ -11,15 +11,15 @@
 
 -------------------------------------------------------------------*/
 :root {
-    --primary-color:#3f396d;
-    --secondary-color:#07003b;
-    --accent:#fca61f;
+    --primary-color: #3f396d;
+    --secondary-color: #07003b;
+    --accent: #ff4433;
     --text-color: #7d7789;
     --off-white-color: #f0f4ff;
-    --light-purple-color:#6f34fe;
-    --white-color:#fff;
-    --light-grey-color:#f2f2ff;
-  }
+    --light-purple-color: #6f34fe;
+    --white-color: #fff;
+    --light-grey-color: #f2f2ff;
+}
 h1{
     font-size: 85px;
     line-height: 88px;
@@ -58,13 +58,13 @@ p{
 }
 .contact a:hover,
 .generic-btn a:hover{
-    border-color: var(--light-purple-color);
-    background: var(--light-purple-color);
+    border-color: var(--accent);
+    background: var(--accent);
     transform: translateY(-8px);
 }
 
 .generic-btn a{
-    background: var(--accent);
+    background: var(--red);
     color: var(--white-color);
     padding: 20px 58px 19px;
     font-size: 20px;
@@ -79,8 +79,8 @@ p{
     transition-timing-function: ease-out;
 }
 .padding-top{
-    padding-top: 130px;
+    padding-top: 80px;
 }
 .padding-bottom{
-    padding-bottom: 130px;
+    padding-bottom: 80px;
 }

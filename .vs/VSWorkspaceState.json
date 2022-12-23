@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets"
+    "\\assets",
+    "\\assets\\bootstarp",
+    "\\assets\\css",
+    "\\assets\\js"
   ],
   "PreviewInSolutionExplorer": false
 }

@@ -80,15 +80,15 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
     color: var(--secondary-color) !important;
 }
 .header-con .nav-item .is-active{
-    color: var(--accent) !important;
+    color: var(--red) !important;
 }
 .banner-heading h2{
     color: var(--primary-color);
     font-weight: 600;
 }
-.banner-heading h1{
+.banner-heading h1 {
     font-weight: 700;
-    color: var(--light-purple-color);
+    color: var(--red);
     margin-bottom: 6px;
 }
 .banner-heading p{
@@ -100,9 +100,9 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
     margin-left: 28px;
     font-size: 20px;
     line-height: 20px;
-    color: var(--light-purple-color);
+    color: var(--red);
     padding-bottom: 6px;
-    border-bottom: 2px solid var(--light-purple-color);
+    border-bottom: 2px solid var(--red);
 }
 .See-btn:hover{
     color: var(--accent);
@@ -154,10 +154,10 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 .banner-right-con::before{
     content: "";
-    width: 36px;
-    height: 36px;
+    width: 112px;
+    height: 119px;
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 0;
     background: url(../image/curn-icon.png) no-repeat top left;
     -webkit-animation: mover 1s infinite  alternate;
@@ -165,19 +165,19 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 .banner-right-con::after{
     content: "";
-    width: 35px;
-    height: 38px;
+    width: 112px;
+    height: 119px;
     position: absolute;
     bottom:100px;
-    right: -58%;
+    right: -63%;
     background: url(../image/triangle-icon.png) no-repeat top left;
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 2s infinite  alternate;
 }
 .happy-con::before{
     content: "";
-    width:52px;
-    height: 59px;
+    width:112px;
+    height: 119px;
     position: absolute;
     top: -131px;
     left: 0;
@@ -208,7 +208,7 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 .service-con::before{
     content: "";
-    width: 127px;
+    width: 180px;
     height: 404px;
     position: absolute;
     top: 207px;
@@ -217,21 +217,21 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
     animation: right-mover 1s infinite alternate;
     -webkit-animation: right-mover 1s infinite alternate;
 }
-.service-con::after{
+.service-con::after {
     content: "";
-    width: 52px;
-    height: 59px;
+    width: 112px;
+    height: 119px;
     position: absolute;
-    top: 154px;
+    top: 30px;
     left: 72px;
-    background: url(../image/half-circle-left-icon.png) no-repeat top left;
+    background: url(../image/half-circle-left.png) no-repeat top left;
     animation: mover 1s infinite alternate;
     -webkit-animation: mover 1s infinite alternate;
 }
 .service-inner-con:after {
     content: "";
-    width: 35px;
-    height: 38px;
+    width: 112px;
+    height: 119px;
     position: absolute;
     bottom: 190px;
     right: -116px;
@@ -325,10 +325,10 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 /***** service section css****/
 /*******portfolio section******/
-.portfolio-con{
+.portfolio-con {
     height: 544px;
     position: relative;
-    background: #6f34fe;
+    background: #f08000;
 }
 .portfolio-body-con{
     overflow: hidden;
@@ -462,8 +462,8 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 .portfolio-img-con:after {
     content: "";
-    width: 35px;
-    height: 38px;
+    width: 112px;
+    height: 119px;
     position: absolute;
     bottom: 64px;
     right: -116px;
@@ -494,22 +494,22 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 .skill-con::before {
     content: "";
-    width: 52px;
-    height: 59px;
+    width: 112px;
+    height: 119px;
     position: absolute;
-    top: 154px;
-    right:72px;
+    top: 94px;
+    right:122px;
     background: url(../image/half-circle-right-icon.png) no-repeat top left;
     animation: mover 1s infinite alternate;
     -webkit-animation: mover 1s infinite alternate;
 }
 .skill-inner-con::before {
     content: "";
-    width: 35px;
-    height: 38px;
+    width: 112px;
+    height: 119px;
     position: absolute;
     bottom: 26px;
-    left: -116px;
+    left: -150px;
     background: url(../image/triangle-icon.png) no-repeat top left;
     -webkit-animation: mover 1s infinite alternate;
     animation: mover 1s infinite alternate;
@@ -762,8 +762,8 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 .blog-inner-con::before{
     content: "";
-    width: 35px;
-    height: 38px;
+    width: 112px;
+    height: 119px;
     position: absolute;
     bottom: 26px;
     left: -116px;
@@ -787,8 +787,8 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 .blog-con::before {
     content: "";
-    width: 52px;
-    height: 59px;
+    width: 112px;
+    height: 119px;
     position: absolute;
     top: 154px;
     right: 72px;
@@ -804,8 +804,8 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 .form-main-inner-con h2{
     color: var(--primary-color);
 }
-.contact-information{
-    background: var(--light-purple-color);
+.contact-information {
+    background: var(--gray-dark);
     border-radius: 28px;
     padding: 70px 40px 50px;
 }
@@ -893,8 +893,8 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 .form-main-inner-con:after{
     content: "";
-    width: 35px;
-    height: 38px;
+    width: 112px;
+    height: 119px;
     position: absolute;
     bottom: 140px;
     right: -116px;
@@ -904,10 +904,10 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 /******form section******/
 /******footer section*******/
-.weight-footer-con{
+.weight-footer-con {
     padding-top: 68px;
     padding-bottom: 20px;
-    background: #211e39;
+    background: #f08000;
 }
 .footer-navbar ul li{
     padding: 0 18px;
@@ -916,7 +916,7 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 .footer-navbar ul li a{
     text-decoration: none;
-    color: #9692b0;
+    color: #fff;
     font-family: 'Lato', sans-serif;
     position: relative;
 }
@@ -1083,21 +1083,21 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
     left: 114px;
     right: initial;
 }
-.tastimonials-con::after{
+.tastimonials-con::after {
     content: "";
-    width: 52px;
-    height: 59px;
+    width: 112px;
+    height: 119px;
     position: absolute;
     top: 115px;
     left: 72px;
-    background: url(../image/half-circle-left-icon.png) no-repeat top left;
+    background: url(../image/half-circle-left.png) no-repeat top left;
     animation: mover 1s infinite alternate;
     -webkit-animation: mover 1s infinite alternate;
 }
 .tastimonials-con::before {
     content: "";
-    width: 127px;
-    height: 404px;
+    width: 180px;
+    height: 400px;
     position: absolute;
     top: 132px;
     left: 0;
