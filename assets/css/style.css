@@ -373,10 +373,10 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
     display: inline-block;
     margin: 0 25px;
 }
-  #myBtnContainer button.active_button{
-    border-bottom: 4px solid var(--accent);
-    color: var(--accent);
-}
+    #myBtnContainer button.active_button {
+        border-bottom: 4px solid var(--indigo);
+        color: var(--indigo);
+    }
 
 #myBtnContainer button:focus{
       outline: none;
@@ -935,7 +935,7 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
     height: 45px;
     border-radius: 50%;
     font-size: 20px;
-    color: #255afc;
+    color: #f08000;
     transition-duration: .3s;
     transition-property: transform;
     transition-timing-function: ease-out;
@@ -945,8 +945,8 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
     background-color:#255afc ;
     transform: translateY(-8px);
 }
-.footer-social-icon ul li:nth-child(2) a i{
-    color: #f33a7e;
+.footer-social-icon ul li:nth-child(2) a i {
+    color: #359ffc;
     margin-left: 11px;
     margin-right: 11px;
 }
@@ -1418,7 +1418,7 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
     padding-top: 62px;
 }
 .blog-content .footer-social-icon ul li a .fab.fa-behance:hover{
-    background-color: #255afc;
+    background-color: #f08000;
 }
 .banner-right-con img[alt="banner-right-img"]{
     animation: right-mover 1s ease-in-out infinite alternate;
