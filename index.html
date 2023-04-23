@@ -214,8 +214,8 @@
                     </a>
                     <div class="portfolio-img-content text-left">
                         <div class="portfolio-img-title d-inline-block">
-                            <h4>Flocked</h4>
-                            <p>Dolar repellendus temporibus...</p>
+                            <h4>CORKBRICK PLAY</h4>
+                            <p>Survival Game: Play, learn and realize!</p>
                         </div>
                         <a href="#" class="float-lg-right" data-toggle="modal" data-target="#modalporfolio5-icon"><i class="fas fa-arrow-right d-flex align-items-center justify-content-center"></i></a>
                     </div>
@@ -685,19 +685,25 @@
                     <figure class="mb-0">
                         <img src="assets/image/corkbrick.png" alt="portfolio-model-img1" class="img-fluid">
                     </figure>
-                    <h4>CORKBRICK PLAY // Unity C#</h4>
-                    <h4>Unity 3d Developer | Core</h4>
+                    <h4>Flocked // Unity C#</h4>
 
                     <ul class="list-unstyled model-list mb-md-3 mb-2">
-                        "CORKBRICK PLAY" will be a building block digital game with an elegant narrative behind it (a spin on the Robinson Crusoe story, symbolizing sustainability,
-                        resourcefulness, and humanity), but with one major difference: the players will be able to build anything they make in the digital game in the actual world.
+                        VR Space Arcade Multiplayer Combat game offers players an action-packed adventure through space, complete with epic battles and interactive base station tasks. 
+                        With intuitive controls and multiplayer options, players can immerse themselves in a social and competitive experience. The game's stunning graphics and realistic 
+                        sound effects create an immersive environment that will keep players engaged for hours.
                     </ul>
                     <ul class="list-unstyled model-list mb-md-3 mb-2">
-                        Genre: Action-Adventure, Farm Simulation
+                        Genre: VR Space Exploration and Combat Multiplayer
                         <br>
-                        Engine: Unity
+                        Type: Unity
                         <br>
-                        Platform: PC
+                        Time: Unity
+                        <br>
+                        Team: Unity
+                        <br>
+                        Skills/Tools: Unity
+                        <br>
+                        Platform: Virtual reality (VR)
                         <br>
                     </ul>
                     <!-- 1. The <iframe> (video player) will replace this <div> tag. -->
@@ -957,16 +963,92 @@
                 </div>
                 <div class="modal-body service-model-content">
                     <figure class="mb-0">
-                        <img src="assets/image/portfolio-model-img5.png" alt="portfolio-model-img1" class="img-fluid">
+                        <img src="assets/image/corkbrick.png" alt="portfolio-model-img1" class="img-fluid">
                     </figure>
-                    <h4>Flocked</h4>
-                    <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release .</p>
+                    <h4>CORKBRICK PLAY</h4>
+                    <h4>CORKBRICK PLAY // Unity C#</h4>
+                    <h4>Unity 3d Developer | Core</h4>
+
                     <ul class="list-unstyled model-list mb-md-3 mb-2">
-                        <li><i class="fas fa-check-circle"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry</li>
-                        <li><i class="fas fa-check-circle"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry</li>
-                        <li><i class="fas fa-check-circle"></i> Lorem Ipsum is simply dummy text of the printing and typesetting industry</li>
+                        "CORKBRICK PLAY" will be a building block digital game with an elegant narrative behind it (a spin on the Robinson Crusoe story, symbolizing sustainability,
+                        resourcefulness, and humanity), but with one major difference: the players will be able to build anything they make in the digital game in the actual world.
                     </ul>
-                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <ul class="list-unstyled model-list mb-md-3 mb-2">
+                        Genre: Action-Adventure, Farm Simulation
+                        <br>
+                        Engine: Unity
+                        <br>
+                        Platform: PC
+                        <br>
+                    </ul>
+                    <!-- 1. The <iframe> (video player) will replace this <div> tag. -->
+                    <div id="player"></div>
+
+                    <script>
+                        // 2. This code loads the IFrame Player API code asynchronously.
+                        var tag = document.createElement('script');
+
+                        tag.src = "https://www.youtube.com/iframe_api";
+                        var firstScriptTag = document.getElementsByTagName('script')[0];
+                        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                        // 3. This function creates an <iframe> (and YouTube player)
+                        //    after the API code downloads.
+                        var player;
+                        function onYouTubeIframeAPIReady() {
+                            player = new YT.Player('player', {
+                                height: '390',
+                                width: '640',
+                                videoId: 'utg5uOz8xAE',
+                                events: {
+                                    'onReady': onPlayerReady,
+                                    'onStateChange': onPlayerStateChange
+                                }
+                            });
+                        }
+
+                        // 4. The API will call this function when the video player is ready.
+                        function onPlayerReady(event) {
+                            event.target.playVideo();
+                        }
+
+                        // 5. The API calls this function when the player's state changes.
+                        //    The function indicates that when playing a video (state=1),
+                        //    the player should play for six seconds and then stop.
+                        var done = false;
+                        function onPlayerStateChange(event) {
+                            if (event.data == YT.PlayerState.PLAYING && !done) {
+                                setTimeout(stopVideo, 6000);
+                                done = true;
+                            }
+                        }
+                        function stopVideo() {
+                            player.stopVideo();
+                        }
+                    </script>
+                    <br><br>
+                    Role(s) and responsibilities:
+                    <p class="mb-md-4 mb-2">
+                        <li>
+                            Work on the core mechanics and expand upon them deriving from the documentation and suggestions made by the design team.
+                        </li>
+                    </p>
+
+                    <p class="mb-0">
+                        <li>
+                            Rendering pipeline proces like shadersand ilumination also using the timeline component and triggers to do story events in the game as well as
+                            implement the art assets into unity optimizing them acording the their format.
+                        </li>
+                    </p>
+                    <p class="mb-0">
+                        <li>
+                            UI implementations and make sure it looks unified and clean
+                        </li>
+                    </p>
+                    <br>
+                    <figure class="mb-0">
+                        <img src="assets/image/corkbrick1.png" alt="portfolio-model-img2" class="img-fluid">
+                    </figure>
                 </div>
             </div>
         </div>
